@@ -3,10 +3,67 @@
 *::before {
   padding: 0;
   margin: 0;
-  box-sizing: inherit; }
+  box-sizing: inherit;
+  overflow-x: hidden; }
 
 html {
   font-size: 62.5%; }
 
 body {
   box-sizing: border-box; }
+
+.container {
+  width: 90%;
+  margin: 0 auto; }
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400; }
+
+.headings__main {
+  font-size: 8rem;
+  font-weight: 300; }
+
+.headings__sub {
+  font-size: 3rem;
+  font-weight: 300; }
+
+.btn:link, .btn:visited {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  border: 0;
+  border-radius: 100px;
+  color: #000;
+  position: relative; }
+
+.btn:focus, .btn:active {
+  text-decoration: none; }
+
+.btn--white {
+  background-color: white; }
+
+.header {
+  position: relative;
+  background-image: url("../../img/jumbo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw; }
+  .header__logo-box {
+    position: absolute;
+    top: 5rem;
+    left: 5rem; }
+  .header__logo {
+    height: 12rem; }
+  .header__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+
+.headings {
+  margin-bottom: 4rem; }
