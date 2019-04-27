@@ -28,6 +28,14 @@ body {
   font-size: 3rem;
   font-weight: 300; }
 
+.section-header__title {
+  font-size: 4rem;
+  margin: 3rem auto 1rem auto; }
+
+.section-header__hr {
+  margin-bottom: 3rem;
+  width: 30%; }
+
 .btn:link, .btn:visited {
   text-decoration: none;
   display: inline-block;
@@ -43,6 +51,31 @@ body {
 
 .btn--white {
   background-color: white; }
+
+.about {
+  position: relative;
+  height: 100vh;
+  width: 100vw; }
+  .about__text {
+    font-size: 2rem; }
+  .about__cards {
+    margin-top: 12rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; }
+    .about__cards-title {
+      font-size: 2.6rem;
+      margin-bottom: 1rem; }
+    .about__cards--submit, .about__cards--review, .about__cards--critique {
+      text-align: center; }
+    .about__cards-text {
+      width: 50%;
+      margin: 0 auto;
+      text-align: left;
+      padding-left: 1rem;
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 1.8; }
 
 .header {
   position: relative;
