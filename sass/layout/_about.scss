@@ -1,0 +1,38 @@
+.about {
+  position: relative;
+  height: 70vh;
+  width: 100vw;
+
+  &__text {
+    font-size: 2.4rem;
+  }
+
+  &__cards {
+    margin-top: 12rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    &-title {
+      font-size: 2.6rem;
+      margin-bottom: 1rem;
+    }
+
+    &--submit,
+    &--review,
+    &--critique {
+      text-align: center;
+    }
+
+    &-text {
+      width: 50%;
+      margin: 0 auto;
+
+      text-align: left;
+      padding-left: 1rem;
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 1.8;
+    }
+  }
+}

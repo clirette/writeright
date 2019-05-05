@@ -1,0 +1,31 @@
+.header {
+  position: relative;
+  background-image: url('../../img/jumbo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+
+  &__logo-box {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+  }
+
+  &__logo {
+    height: 12rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+.headings {
+  margin-bottom: 4rem;
+}

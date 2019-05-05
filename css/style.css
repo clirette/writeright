@@ -1,0 +1,224 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  overflow-x: hidden; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.container {
+  width: 90%;
+  margin: 0 auto; }
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400; }
+
+.headings__main {
+  font-size: 8rem;
+  font-weight: 300; }
+
+.headings__sub {
+  font-size: 3rem;
+  font-weight: 300; }
+
+.section-header__title {
+  font-size: 5rem;
+  margin: 3rem auto 1rem auto; }
+
+.section-header__hr {
+  margin-bottom: 3rem;
+  width: 30%; }
+
+.btn:link, .btn:visited {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  border: 0;
+  border-radius: 100px;
+  color: #000;
+  position: relative; }
+
+.btn:focus, .btn:active {
+  text-decoration: none; }
+
+.btn--white {
+  background-color: white; }
+
+.about {
+  position: relative;
+  height: 70vh;
+  width: 100vw; }
+  .about__text {
+    font-size: 2.4rem; }
+  .about__cards {
+    margin-top: 12rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; }
+    .about__cards-title {
+      font-size: 2.6rem;
+      margin-bottom: 1rem; }
+    .about__cards--submit, .about__cards--review, .about__cards--critique {
+      text-align: center; }
+    .about__cards-text {
+      width: 50%;
+      margin: 0 auto;
+      text-align: left;
+      padding-left: 1rem;
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 1.8; }
+
+.contact {
+  position: relative;
+  height: 70vh;
+  width: 100vw;
+  background-color: #fafafa; }
+  .contact__text {
+    font-size: 2.3rem; }
+  .contact__form {
+    margin-top: 4rem; }
+
+.form-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.form__name, .form__email {
+  display: block; }
+
+.form__message {
+  margin-top: 3rem;
+  display: block; }
+  .form__message label {
+    display: block; }
+  .form__message textarea {
+    width: 100%;
+    padding: .7rem;
+    margin-top: .6rem;
+    font-size: 1.6rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    resize: none; }
+
+.form__name label,
+.form__email label,
+.form__message label {
+  font-size: 2rem; }
+
+.form__name input,
+.form__email input {
+  width: 40vw;
+  height: 3rem;
+  padding: .7rem;
+  margin-top: .6rem;
+  display: block;
+  font-size: 1.6rem; }
+
+.form__submit {
+  margin: 2rem 0; }
+  .form__submit input {
+    width: 100%;
+    font-size: 2rem;
+    background-color: #01a301;
+    color: #fff;
+    border: none;
+    height: 4rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all .2s ease-in;
+    -webkit-appearance: none; }
+    .form__submit input:hover {
+      background-color: #03822d; }
+
+.editor {
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+  background-color: #424242;
+  color: #fff; }
+  .editor__text {
+    font-size: 2.4rem; }
+  .editor-steps {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .editor-steps__card {
+      background-color: #fff;
+      color: #333;
+      padding: 3rem;
+      margin: 2rem 0;
+      font-size: 2rem;
+      border-radius: .5rem; }
+
+.footer {
+  font-size: 1.4rem;
+  background-color: #424242;
+  text-align: center;
+  color: #fff;
+  padding: 1rem 0; }
+  .footer__link {
+    color: #fff; }
+
+.header {
+  position: relative;
+  background-image: url("../../img/jumbo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw; }
+  .header__logo-box {
+    position: absolute;
+    top: 5rem;
+    left: 5rem; }
+  .header__logo {
+    height: 12rem; }
+  .header__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+
+.headings {
+  margin-bottom: 4rem; }
+
+@media (max-width: 736px) {
+  html {
+    font-size: 31.25%; }
+  .about,
+  .editor,
+  .contact {
+    height: 100vh; }
+  .container {
+    width: 90%; }
+  .header__logo {
+    height: 6rem; }
+    .header__logo-box {
+      top: 2rem;
+      left: 2rem; }
+  .header__text-box {
+    width: 80%;
+    top: 50%; }
+  .about__cards {
+    margin-top: 4rem;
+    display: block;
+    width: 100%; }
+    .about__cards-title {
+      margin-bottom: .4rem; }
+    .about__cards--submit, .about__cards--review, .about__cards--critique {
+      margin-bottom: 2rem; }
+    .about__cards-text {
+      width: 80%; }
+  .editor-steps__card {
+    width: 80vw; } }

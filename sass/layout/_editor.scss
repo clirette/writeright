@@ -1,0 +1,27 @@
+.editor {
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+  background-color: #424242;
+  color: #fff;
+
+  &__text {
+    font-size: 2.4rem;
+  }
+  
+  &-steps {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    &__card {
+      background-color: #fff;
+      color: #333;
+      padding: 3rem;
+      margin: 2rem 0;
+      font-size: 2rem;
+      border-radius: .5rem;
+    }
+  }
+}

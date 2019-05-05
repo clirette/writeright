@@ -1,0 +1,31 @@
+.btn {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    border: 0;
+    border-radius: 100px;
+    color: $color-black;
+    position: relative;
+  }
+
+  &:hover {
+
+  }
+
+  &:focus,
+  &:active, {
+    text-decoration: none;
+  }
+  
+  &--white {
+    background-color: white;
+
+  }
+
+  &--animated {
+
+  }  
+}

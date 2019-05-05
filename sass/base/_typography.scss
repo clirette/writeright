@@ -1,0 +1,28 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+.headings {
+  &__main {
+    font-size: 8rem;
+    font-weight: 300;
+  }
+
+  &__sub {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+}
+
+.section-header {
+  &__title {
+    font-size: 5rem;
+    margin: 3rem auto 1rem auto;
+  }
+
+  &__hr {
+    margin-bottom: 3rem;
+    width: 30%;
+  }
+}
