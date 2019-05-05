@@ -134,7 +134,8 @@ body {
     height: 4rem;
     border-radius: .5rem;
     cursor: pointer;
-    transition: all .2s ease-in; }
+    transition: all .2s ease-in;
+    -webkit-appearance: none; }
     .form__submit input:hover {
       background-color: #03822d; }
 
@@ -146,19 +147,18 @@ body {
   color: #fff; }
   .editor__text {
     font-size: 2.4rem; }
-
-.steps {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-  .steps__card {
-    background-color: #fff;
-    color: #333;
-    padding: 3rem;
-    margin: 2rem 0;
-    font-size: 2rem;
-    border-radius: .5rem; }
+  .editor-steps {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .editor-steps__card {
+      background-color: #fff;
+      color: #333;
+      padding: 3rem;
+      margin: 2rem 0;
+      font-size: 2rem;
+      border-radius: .5rem; }
 
 .footer {
   font-size: 1.4rem;
@@ -192,3 +192,33 @@ body {
 
 .headings {
   margin-bottom: 4rem; }
+
+@media (max-width: 736px) {
+  html {
+    font-size: 31.25%; }
+  .about,
+  .editor,
+  .contact {
+    height: 100vh; }
+  .container {
+    width: 90%; }
+  .header__logo {
+    height: 6rem; }
+    .header__logo-box {
+      top: 2rem;
+      left: 2rem; }
+  .header__text-box {
+    width: 80%;
+    top: 50%; }
+  .about__cards {
+    margin-top: 4rem;
+    display: block;
+    width: 100%; }
+    .about__cards-title {
+      margin-bottom: .4rem; }
+    .about__cards--submit, .about__cards--review, .about__cards--critique {
+      margin-bottom: 2rem; }
+    .about__cards-text {
+      width: 80%; }
+  .editor-steps__card {
+    width: 80vw; } }
