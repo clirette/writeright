@@ -82,6 +82,10 @@ body {
   height: 70vh;
   width: 100vw;
   background-color: #fafafa; }
+  .contact__text {
+    font-size: 2.3rem; }
+  .contact__form {
+    margin-top: 4rem; }
 
 .form-flex {
   display: flex;
@@ -142,12 +146,28 @@ body {
   color: #fff; }
   .editor__text {
     font-size: 2.4rem; }
-  .editor__steps {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%; }
+
+.steps {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .steps__card {
+    background-color: #fff;
+    color: #333;
+    padding: 3rem;
+    margin: 2rem 0;
+    font-size: 2rem;
+    border-radius: .5rem; }
+
+.footer {
+  font-size: 1.4rem;
+  background-color: #424242;
+  text-align: center;
+  color: #fff;
+  padding: 1rem 0; }
+  .footer__link {
+    color: #fff; }
 
 .header {
   position: relative;
