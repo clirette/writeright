@@ -1,3 +1,19 @@
+@keyframes headerSlideDown {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -60%); }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%); } }
+
+@keyframes headerLogoSlideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-2rem); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
 *,
 *::after,
 *::before {
@@ -180,7 +196,8 @@ body {
   .header__logo-box {
     position: absolute;
     top: 5rem;
-    left: 5rem; }
+    left: 5rem;
+    animation: headerLogoSlideDown .7s ease-in; }
   .header__logo {
     height: 12rem; }
   .header__text-box {
@@ -189,7 +206,8 @@ body {
     left: 50%;
     color: white;
     transform: translate(-50%, -50%);
-    text-align: center; }
+    text-align: center;
+    animation: headerSlideDown .7s ease-in; }
 
 .headings {
   margin-bottom: 4rem; }
