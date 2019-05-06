@@ -46,7 +46,9 @@
       &--submit,
       &--review,
       &--critique {
+        margin: auto;
         margin-bottom: 2rem;
+        width: 80%;
       }
       
       &-text {

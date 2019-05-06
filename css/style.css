@@ -67,7 +67,8 @@ body {
       font-size: 2.6rem;
       margin-bottom: 1rem; }
     .about__cards--submit, .about__cards--review, .about__cards--critique {
-      text-align: center; }
+      text-align: center;
+      width: 50%; }
     .about__cards-text {
       width: 50%;
       margin: 0 auto;
@@ -218,7 +219,9 @@ body {
     .about__cards-title {
       margin-bottom: .4rem; }
     .about__cards--submit, .about__cards--review, .about__cards--critique {
-      margin-bottom: 2rem; }
+      margin: auto;
+      margin-bottom: 2rem;
+      width: 80%; }
     .about__cards-text {
       width: 80%; }
   .editor-steps__card {
