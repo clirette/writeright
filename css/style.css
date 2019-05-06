@@ -54,7 +54,7 @@ body {
 
 .about {
   position: relative;
-  height: 70vh;
+  height: 80vh;
   width: 100vw; }
   .about__text {
     font-size: 2.4rem; }
@@ -79,7 +79,7 @@ body {
 
 .contact {
   position: relative;
-  height: 70vh;
+  height: 80vh;
   width: 100vw;
   background-color: #fafafa; }
   .contact__text {
@@ -140,7 +140,7 @@ body {
       background-color: #03822d; }
 
 .editor {
-  height: 70vh;
+  height: 80vh;
   width: 100vw;
   position: relative;
   background-color: #424242;
@@ -197,9 +197,10 @@ body {
   html {
     font-size: 31.25%; }
   .about,
-  .editor,
-  .contact {
+  .editor {
     height: 100vh; }
+  .contact {
+    height: 80vh; }
   .container {
     width: 90%; }
   .header__logo {
