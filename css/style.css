@@ -254,7 +254,14 @@ body {
       width: 100%; }
   .editor {
     height: 100vh; }
-    .editor-steps__card {
-      margin: 1rem 0; }
+    .editor-steps {
+      top: 50%; }
+      .editor-steps__card {
+        margin: 1rem 0;
+        padding: 1rem; }
   .contact {
-    height: 100vh; } }
+    height: 100vh; }
+    .contact__form {
+      margin-top: 1.4rem; }
+  .form__message {
+    margin-top: 1rem; } }
