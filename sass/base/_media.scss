@@ -67,3 +67,30 @@
     }
   }
 }
+
+@media (orientation: landscape) and (max-height: 320px) {
+  .about {
+    height: auto;
+    &__cards {
+      margin-top: 1rem;
+    }
+
+    &-text {
+      width: 100%;
+    }
+  }
+
+  .editor {
+    height: 100vh;
+
+    &-steps {
+      &__card {
+        margin: 1rem 0;
+      }
+    }
+  }
+
+  .contact {
+    height: 100vh;
+  }
+}

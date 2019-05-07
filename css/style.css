@@ -244,3 +244,17 @@ body {
       width: 80%; }
   .editor-steps__card {
     width: 80vw; } }
+
+@media (orientation: landscape) and (max-height: 320px) {
+  .about {
+    height: auto; }
+    .about__cards {
+      margin-top: 1rem; }
+    .about-text {
+      width: 100%; }
+  .editor {
+    height: 100vh; }
+    .editor-steps__card {
+      margin: 1rem 0; }
+  .contact {
+    height: 100vh; } }
